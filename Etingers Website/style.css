@@ -1,0 +1,38 @@
+
+body{
+	margin: 0px;
+	background: rgba(0,0,200,0.2)
+}
+.container{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+
+h2{
+	text-align : center;
+	font-family: 'italic', cursive;
+}
+h1{
+	font-family: 'Chau Philomene One', cursive;
+	font-size: 3em;
+	border-bottom: 2px solid pink;
+	border-right:2px solid pink;
+	width: 400px;
+	text-align: center;
+	box-shadow: 4px 4px 5px #888888;
+	margin: 10px;
+	background-color:white;
+}
+
+img {
+	height: 300px;
+	width: 450px;
+	margin : 10px;
+	transition: all 0.7s;
+}
+
+img:hover{
+	transform: scale(1.2);
+}
